@@ -30,7 +30,7 @@ class DocsController < ApplicationController
     if @doc.update(doc_params)
       redirect_to @doc
     else 
-      render "edit"
+      render 'edit'
     end
   end 
 
