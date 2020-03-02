@@ -1,9 +1,9 @@
 !!!
 %html
 %head
-  %title FileCabinet | Your life's work !
-  = stylesheet_link_tag    'application',media: 'all', 'data-turbolinks-track' => true
-  = javascript_include_tag 'application', 'data-turbolinks-track' => true
+  %title FileCabinet | Fabiano Dolzanes
+  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+  = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   = csrf_meta_tags
 
 %body 
@@ -14,6 +14,7 @@
       %nav 
         - if user_signed_in? 
           = link_to "Create Doc", new_doc_path
+          = link_to "All Docs", docs_path
           = link_to "Sign out", destroy_user_session_path, method: :delete
         - else
           = link_to "Log in", new_user_session_path
