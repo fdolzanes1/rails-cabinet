@@ -1,24 +1,42 @@
-# README
+<h1 align="center">File Cabinet</h1>
+  <p align="center">
+  <strong align="center">Save your entire life</strong>
+</p>
+  <img src="home.jpg" float="center"/>
+</p>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
 
-Things you may want to cover:
+- [Ruby on Rails](https://rubyonrails.org/)
 
-* Ruby version
+## How to use
 
-* System dependencies
+```
+$ git clone https://github.com/fdolzanes1/rails-cabinet/
+```
 
-* Configuration
+### Backend
 
-* Database creation
+```
+$ cd rails-cabinet
+```
+To get started with the app, clone the repo and then install the needed gems:
+```
+$ bundle install
+```
+Next, migrate the database:
+```
+$ rails db:migrate
+```
+You'll be ready to run the app in a local server:
+```
+$ rails server -p 3001
+```
 
-* Database initialization
+## Author
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/fdolzanes1"><img src="https://avatars1.githubusercontent.com/u/7582408?s=460&u=3e2b2f0b13c89e8a576836e64026a1c6b3856dcf&v=4" width="100px;" alt=""/><br /><sub><b>Fabiano Dolzanes</b></sub></a><br /><a href="https://github.com/fdolzanes1/rails-cabinet" title="Code">💻</a></td>
+  <tr>
+</table>
